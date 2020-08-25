@@ -2,17 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Hompage from './homepage.component'
+import Hompage from './pages/homepage/homepage.component'
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-     
-    <Hompage />
-      </header>
+        <Hompage />
     </div>
   );
 }
